@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   resources :articles
 
-  get 'articles' => 'articles#index'
+  get 'signup' => 'users#new'
+
+  resources :users, except: [:new]
   
 end
