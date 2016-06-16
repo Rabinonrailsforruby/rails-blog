@@ -18,7 +18,7 @@
 	text-decoration: none;
 }
 .center{
-	text-align: right;
+	text-align: center;
 }
 
 .jumbotron{
@@ -60,6 +60,11 @@ footer ul li {
 .article-title {
 	font-weight: bold;
 	font-size: 1.5em;
+
+}
+.listing {
+	list-style: none;
+	padding-left: 0;
 }
 .article-body {
 	border-top: 1px solid #eaeaea;
