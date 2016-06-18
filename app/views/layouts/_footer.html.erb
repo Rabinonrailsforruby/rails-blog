@@ -1,16 +1,83 @@
 <hr/>
-<div class="container">
-	<footer class="footer">
-  		<small>
-  			Copyright &copy;
-  			<a href="#">Blogger App</a>
-  		</small>
-  		<nav>
-  			<ul>
-  				<li><%= link_to "About", about_path %></li>
+<footer id="footerWrapper" class="footer4">
+  <section id="mainFooter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="footerWidget">
+            <h3>About us</h3>
+            <p><a href="http://www.rails-blog-rabin.herokuapp.com" title="Blog writer application">Blogger App</a> is a blog writing web application.You can read, write, publish and do many more from this site. </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="footerWidget">
+            <h3>Thought of the day</h3>
+            <article class="boxTestimonial">
+
+              <blockquote>
+                If you can tell stories, create characters, devise incidents, and have sincerity and passion, it doesn’t matter a damn how you write.
+              </blockquote>
+
+              <div class="clientIcon">
+                <img src="../assets/images/SomersetMaugham_360" alt="client">
+                <span><strong>Patrick Michael</strong>— Kung Fu Master</span>
+              </div>
+
+            </article>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="footerWidget">
+            <h3>Latest news</h3>
+            <ul class="list-unstyled iconList borderList">
+              <li><a href="#">Articles categories to be added soon</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="footerWidget">
+
+            <h3>Keep in touch</h3>
+            <h1 class="phone">+ 977-9860024373</h1>
+            <h4> Rabin Paudel </h4>
+            <address>
+              <p>
+                Nepal<br>
+                
+                <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:little@little-neko.com">rabinonrailsforruby@gmail.com</a>
+              </p>
+            </address>
+
+            <ul class="socialNetwork">
+
+
+              <li><a href="#" class="tips" title="follow me on Facebook"><i class="icon-facebook-1 iconRounded iconSmall"></i></a></li>
+              <li><a href="#" class="tips" title="follow me on Twitter"><i class="icon-twitter-bird iconRounded iconSmall"></i></a></li>
+              <li><a href="#" class="tips" title="follow me on Google+"><i class="icon-gplus-1 iconRounded iconSmall"></i></a></li>
+              <li><a href="#" class="tips" title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded iconSmall"></i></a></li>
+              <li><a href="#" class="tips" title="follow me on Dribble"><i class="icon-dribbble iconRounded iconSmall"></i></a></li>
+            </ul>    
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footerRights">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/neko-logo.png" alt="latest Little Neko news" id="footerLogo">
+        </div>
+        <div class="col-md-6">
+          <ul class="quickMenu">
+            <li><a href="template-site-map.html" class="linkLeft">Site map</a></li>
+            <li><%= link_to "About", about_path %></li>
           <li><%= link_to "Contact", contact_path %></li>
           <li><%= link_to "Report a problem", report_path %></li>
-  			</ul>
-  		</nav>
-  </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 </footer>
