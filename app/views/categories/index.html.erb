@@ -6,7 +6,8 @@
 		<div class="well col-md-4 col-md-offset-4">
 		<h2>
 			<strong>
-				<%= link_to "#{ category.name }", category_path(category) %>
+				<%= link_to "#{ category.name }", category_path(category) %><br/>
+				<small><%= pluralize(category.articles.count, "article") %></small>
 			</strong>
 		</h2>
 		</div>
