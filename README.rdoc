@@ -1,2 +1,9 @@
-Hello people! 
-This is the repository for the rails blog app.
+Powerful blogging web application hardcoded on Ruby using rails framework.
+database = pg for production sqlite3 for development
+deployed to heroku
+
+features of this blog:
+-sessions
+-many to many associations
+-functional testing,integrated testing and model testing
+-one to many association.
